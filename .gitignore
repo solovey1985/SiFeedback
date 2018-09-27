@@ -9,6 +9,7 @@
 *.userosscache
 *.sln.docstates
 
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -25,6 +26,8 @@ bin/
 Bin/
 obj/
 Obj/
+.vs/
+.vscode/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -141,7 +144,7 @@ publish/
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
-
+**/.vscode
 # NuGet Packages
 *.nupkg
 # The packages folder can be ignored because of Package Restore
