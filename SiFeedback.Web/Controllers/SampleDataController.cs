@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace SiFeedback.Web.Controllers
 {
- 
+    //TEMP
     [Route("api/[controller]")]
     public class SampleDataController : Controller
     {
