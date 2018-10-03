@@ -31,6 +31,7 @@ namespace SiFeedback.Web.Controllers
             public string DateFormatted { get; set; }
             public int TemperatureC { get; set; }
             public string Summary { get; set; }
+            public int WindowVelocity { get; set; }
 
             public int TemperatureF {
                 get {
