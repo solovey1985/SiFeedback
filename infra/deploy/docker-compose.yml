@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  sifeedback-web:
+    image: sifeedback/sifeedback-web:dev
+    ports:
+      - "80:80"
+    restart: unless-stopped
