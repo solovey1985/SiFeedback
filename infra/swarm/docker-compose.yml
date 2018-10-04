@@ -10,4 +10,4 @@ services:
         deploy:
             placement:
                 constraints:
-                    - node.role==managercd cd 
+                    - node.role==manager
