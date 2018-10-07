@@ -15,8 +15,8 @@ RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash - && apt-get install 
 COPY . .
 
 #test
-ENV TEAMCITY_PROJECT_NAME=fake
-RUN dotnet test SiFeedback.Tests/SiFeedback.Tests.csproj
+#ENV TEAMCITY_PROJECT_NAME=notfake
+#RUN dotnet test SiFeedback.Tests/SiFeedback.Tests.csproj
 
 #publish
 RUN dotnet publish SiFeedback.Web/SiFeedback.Web.csproj -o  /publish
