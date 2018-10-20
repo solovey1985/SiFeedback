@@ -14,10 +14,6 @@ module.exports = {
         publicPath: path.resolve(__dirname, 'dist')
     },
     plugins: [
-        // new MiniCssExtractPlugin({
-        //     filename: "[name].css",
-        //     chunkFilename: "[id].css"
-        // }),
         new webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
@@ -54,7 +50,8 @@ module.exports = {
                     loader: 'file-loader',
                     options: {
                         name: '[name].[ext]',
-                        outputPath: 'fonts/'
+                        useRelativePath: true,
+                        publicPath: '/dist'
                     }
                 }]
             }

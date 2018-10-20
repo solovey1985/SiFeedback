@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "C:\\WorkSolutions\\SIFeedback\\SiFeedback.Web\\wwwroot\\dist";
+/******/ 	__webpack_require__.p = "E:\\Projects\\SiFeedback\\SiFeedback.Web\\wwwroot\\dist";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -6834,9 +6834,9 @@ eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader!
   !*** ./src/assets/fonts/nucleo-outline.eot ***!
   \*********************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("module.exports = __webpack_require__.p + \"fonts/nucleo-outline.eot\";\n\n//# sourceURL=webpack:///./src/assets/fonts/nucleo-outline.eot?");
+eval("module.exports = \"/dist/nucleo-outline.eot\";\n\n//# sourceURL=webpack:///./src/assets/fonts/nucleo-outline.eot?");
 
 /***/ }),
 
@@ -6845,9 +6845,9 @@ eval("module.exports = __webpack_require__.p + \"fonts/nucleo-outline.eot\";\n\n
   !*** ./src/assets/fonts/nucleo-outline.ttf ***!
   \*********************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("module.exports = __webpack_require__.p + \"fonts/nucleo-outline.ttf\";\n\n//# sourceURL=webpack:///./src/assets/fonts/nucleo-outline.ttf?");
+eval("module.exports = \"/dist/nucleo-outline.ttf\";\n\n//# sourceURL=webpack:///./src/assets/fonts/nucleo-outline.ttf?");
 
 /***/ }),
 
@@ -6856,9 +6856,9 @@ eval("module.exports = __webpack_require__.p + \"fonts/nucleo-outline.ttf\";\n\n
   !*** ./src/assets/fonts/nucleo-outline.woff ***!
   \**********************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("module.exports = __webpack_require__.p + \"fonts/nucleo-outline.woff\";\n\n//# sourceURL=webpack:///./src/assets/fonts/nucleo-outline.woff?");
+eval("module.exports = \"/dist/nucleo-outline.woff\";\n\n//# sourceURL=webpack:///./src/assets/fonts/nucleo-outline.woff?");
 
 /***/ }),
 
@@ -6867,9 +6867,9 @@ eval("module.exports = __webpack_require__.p + \"fonts/nucleo-outline.woff\";\n\
   !*** ./src/assets/fonts/nucleo-outline.woff2 ***!
   \***********************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("module.exports = __webpack_require__.p + \"fonts/nucleo-outline.woff2\";\n\n//# sourceURL=webpack:///./src/assets/fonts/nucleo-outline.woff2?");
+eval("module.exports = \"/dist/nucleo-outline.woff2\";\n\n//# sourceURL=webpack:///./src/assets/fonts/nucleo-outline.woff2?");
 
 /***/ }),
 
@@ -7082,7 +7082,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Car
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! history */ \"./node_modules/history/es/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ \"./node_modules/bootstrap/dist/css/bootstrap.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _assets_scss_now_ui_dashboard_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/scss/now-ui-dashboard.css */ \"./src/assets/scss/now-ui-dashboard.css\");\n/* harmony import */ var _assets_scss_now_ui_dashboard_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_now_ui_dashboard_css__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _assets_css_demo_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/css/demo.css */ \"./src/assets/css/demo.css\");\n/* harmony import */ var _assets_css_demo_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_css_demo_css__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _routes_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./routes/index */ \"./src/routes/index.jsx\");\n\n\n\n\n\n\n\n\nvar hist = Object(history__WEBPACK_IMPORTED_MODULE_2__[\"createBrowserHistory\"])();\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__[\"Router\"], {\n  history: hist\n}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__[\"Switch\"], null, _routes_index__WEBPACK_IMPORTED_MODULE_7__[\"default\"].map(function (prop, key) {\n  react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__[\"Route\"], {\n    path: prop.path,\n    key: key,\n    component: prop.component\n  });\n}))), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var history__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! history */ \"./node_modules/history/es/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/es/index.js\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ \"./node_modules/bootstrap/dist/css/bootstrap.css\");\n/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _assets_scss_now_ui_dashboard_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/scss/now-ui-dashboard.css */ \"./src/assets/scss/now-ui-dashboard.css\");\n/* harmony import */ var _assets_scss_now_ui_dashboard_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_now_ui_dashboard_css__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _assets_css_demo_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/css/demo.css */ \"./src/assets/css/demo.css\");\n/* harmony import */ var _assets_css_demo_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_css_demo_css__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _routes_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./routes/index */ \"./src/routes/index.jsx\");\n/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! reactstrap */ \"./node_modules/reactstrap/dist/reactstrap.es.js\");\n\n\n\n\n\n\n\n\n\nvar hist = Object(history__WEBPACK_IMPORTED_MODULE_2__[\"createBrowserHistory\"])();\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__[\"Card\"], {\n  style: {\n    width: '20rem'\n  }\n}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__[\"CardBody\"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__[\"CardTitle\"], null, \"Card title\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__[\"CardSubtitle\"], {\n  className: \"mb-2 text-muted\"\n}, \"Card subtitle\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__[\"CardText\"], null, \"Some quick example text to build on the card title and make up the bulk of the card's content.\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__[\"CardLink\"], {\n  href: \"/#/\"\n}, \"Card link\"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_8__[\"CardLink\"], {\n  href: \"/#/\"\n}, \"Another link\"))), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
