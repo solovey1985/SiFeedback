@@ -11,7 +11,7 @@ namespace SiFeedback.Web.Controllers
     {
         private static string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Freezing_2", "Bracing_3", "Chilly", "Cool_3", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
         [HttpGet("[action]")]
@@ -21,7 +21,7 @@ namespace SiFeedback.Web.Controllers
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 DateFormatted = DateTime.Now.AddDays(index).ToString("d"),
-                TemperatureC = rng.Next(-20, 155),
+                TemperatureC = rng.Next(-100, 155),
                 Summary = Summaries[rng.Next(Summaries.Length)]
             });
         }
