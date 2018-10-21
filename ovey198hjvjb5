@@ -1,0 +1,138 @@
+[33mcommit 804b15f4392ffb50d1895175710c07dd030bbb4d[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Fri Oct 19 17:31:43 2018 +0300
+
+    now-ui kit
+
+[33mcommit f593c9e9b7e62a42ae45f15f2e6a80ab66c3bb2e[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Fri Oct 5 15:06:00 2018 +0300
+
+    remove test from build
+
+[33mcommit 5222011db1de8a44c8ff49d8714f7cafec8e069d[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Fri Oct 5 13:23:37 2018 +0300
+
+    name was changed
+
+[33mcommit 96c0696b914d9a4f9bd2e0e223b05dcf0d9789ea[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Thu Oct 4 19:46:45 2018 +0300
+
+    Name changed
+
+[33mcommit 024b11d9b87ef5ef488ae47ebc30b129990d8ab5[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Thu Oct 4 19:18:54 2018 +0300
+
+    test project
+
+[33mcommit 528090f761eded1e438ab463f2f29c9b90a6d2b9[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Thu Oct 4 18:13:41 2018 +0300
+
+    swarm service fix
+
+[33mcommit ce898f5b5ef7562a9f57b647c85716740cea1c8c[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Thu Oct 4 14:35:48 2018 +0300
+
+    another repo
+
+[33mcommit 662dbc5a1fe96b38a7a0e536b518374b2d691651[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Thu Oct 4 13:53:49 2018 +0300
+
+    swarm viz
+
+[33mcommit 604e99e4958971f8acbbbdb262d84d2ad8bbbf61[m
+Merge: e44f26a a29bae4
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Wed Oct 3 12:52:06 2018 +0300
+
+    Merge branch 'develop' of https://github.com/solovey1985/SiFeedback into develop
+
+[33mcommit e44f26a8dcf2d76878e2e4c7c2873203ed7eb1d4[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Wed Oct 3 12:51:01 2018 +0300
+
+    Window velocity parameter
+
+[33mcommit a29bae4d88069b580703514c1285e4d1d8c4f9b8[m
+Author: Andrii Solovienko <osobuy@gmail.com>
+Date:   Wed Oct 3 01:10:23 2018 +0300
+
+    compose for deployment
+
+[33mcommit 82ebc2af171de1595afe488d2d2557a9df0296c5[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Tue Oct 2 19:35:09 2018 +0300
+
+    chng
+
+[33mcommit 153e5d68c07bc771813cd641fc5b1fdaece6b4ba[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Tue Oct 2 19:00:41 2018 +0300
+
+    cmt
+
+[33mcommit 070cb6bfad1eb8882cb19ef894f3d5175f6afe5f[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Tue Oct 2 18:22:55 2018 +0300
+
+    rm cmt
+
+[33mcommit a9fedf0679628d9be03b71b80408838e208f22fa[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Tue Oct 2 18:05:02 2018 +0300
+
+    change
+
+[33mcommit 58ddbcfe7beda45f31cddbfa95decb644c9e2db3[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Tue Oct 2 17:58:22 2018 +0300
+
+    another cng
+
+[33mcommit 7d1c1707b5d93e524f7ab048a07a867cce82c808[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Tue Oct 2 17:41:46 2018 +0300
+
+    teamcity test login setup
+
+[33mcommit 5aa89477910e89d0ac7d57f410e3a58f3a9b1a6a[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Tue Oct 2 17:38:07 2018 +0300
+
+    revert changes
+
+[33mcommit 3dca0e6105b6dd2a7d390f8027d1dfbf69dc5021[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Tue Oct 2 17:30:08 2018 +0300
+
+    range was changed
+
+[33mcommit 36a17e3b7b48d92e2c73ac62da016a4618affe6d[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Fri Sep 28 18:38:06 2018 +0300
+
+    dockerfiles for build and test projects
+
+[33mcommit 16292295e062a4149803c3572329a7e901461970[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Thu Sep 27 20:22:36 2018 +0300
+
+    test project
+
+[33mcommit 58c6cde6644d3fd7afb9f60c91e0c6d30ac410ab[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Thu Sep 27 19:59:12 2018 +0300
+
+    Infra for registry and teamcity
+
+[33mcommit fdf0ed24a020d5d4b294bc1efd6f121208d468b9[m
+Author: SOFTINVEST\Andrii.Solovienko <andrii.solovienko@uapay.ua>
+Date:   Thu Sep 27 18:31:10 2018 +0300
+
+    init for SPA project
