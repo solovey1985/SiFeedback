@@ -1,6 +1,7 @@
 using SiFeedback.Web.Controllers;
 using System;
 using System.Collections.Generic;
+
 using Xunit;
 
 namespace SiFeedback.Tests
@@ -12,7 +13,8 @@ namespace SiFeedback.Tests
         {
             SampleDataController controller = new SampleDataController();
 
-            IEnumerable<SampleDataController.WeatherForecast> data = controller.WeatherForecasts();
+            IEnumerable<SampleDataController.WeatherForecast> data = 
+                                                            new List<SampleDataController.WeatherForecast>();
 
             Assert.NotNull(data);
         }
