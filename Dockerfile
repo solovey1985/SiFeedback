@@ -5,8 +5,8 @@ WORKDIR /sifeedback
 #restore
 COPY SiFeedback.Web/SiFeedback.Web.csproj ./SiFeedback.Web/
 RUN dotnet restore SiFeedback.Web/SiFeedback.Web.csproj
-COPY SiFeedback.Tests/SiFeedback.Tests.csproj ./SiFeedback.Tests/
-RUN dotnet restore SiFeedback.Tests/SiFeedback.Tests.csproj
+# COPY SiFeedback.Tests/SiFeedback.Tests.csproj ./SiFeedback.Tests/
+# RUN dotnet restore SiFeedback.Tests/SiFeedback.Tests.csproj
 
 #install Node.js
 RUN curl -sL https://deb.nodesource.com/setup_10.x |  bash - && apt-get install -y nodejs

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SiFeedback.Web", "SiFeedbac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiFeedback.Tests", "SiFeedback.Tests\SiFeedback.Tests.csproj", "{8618CA2E-DB93-476F-A23D-E11BD5FA8B44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiFeedback.Identity", "SiFeedback.Identity\SiFeedback.Identity.csproj", "{05120DA2-DB59-4770-889F-76102D391E00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8618CA2E-DB93-476F-A23D-E11BD5FA8B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8618CA2E-DB93-476F-A23D-E11BD5FA8B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8618CA2E-DB93-476F-A23D-E11BD5FA8B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05120DA2-DB59-4770-889F-76102D391E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05120DA2-DB59-4770-889F-76102D391E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05120DA2-DB59-4770-889F-76102D391E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05120DA2-DB59-4770-889F-76102D391E00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
