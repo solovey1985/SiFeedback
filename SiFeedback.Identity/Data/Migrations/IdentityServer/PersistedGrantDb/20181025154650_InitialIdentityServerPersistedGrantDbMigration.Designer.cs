@@ -10,9 +10,10 @@ using System;
 namespace SiFeedback.Identity.Data.Migrations.IdentityServer.PersistedGrantDb
 {
     [DbContext(typeof(PersistedGrantDbContext))]
-    partial class PersistedGrantDbContextModelSnapshot : ModelSnapshot
+    [Migration("20181025154650_InitialIdentityServerPersistedGrantDbMigration")]
+    partial class InitialIdentityServerPersistedGrantDbMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
