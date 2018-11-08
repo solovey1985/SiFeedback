@@ -1,0 +1,36 @@
+version: '3.1'
+services:
+  web:
+    container_name: "yalldoo.web"
+    image: sifeedback/yalldoo.web
+    ports:
+     - "8080:80"
+    depends_on:
+    - "api"
+    - "identity"
+   restart: unless-stopped
+  db:
+    image: "microsoft/mssql-server-linux"
+    environment:
+      SA_PASSWORD: "1qaz@WSX"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1443"
+  api:
+    container_name: "yalldoo.api"
+    image: sifeedback/yalldoo.api
+    build: 
+      context: ../Api
+      dockerfile: Dockerfile
+    ports:
+     - "8070:80"
+    depends_on:
+    - "db"
+    - "identity"
+  identity:
+    container_name: "yalldoo.id"
+    image: sifeedback/yalldoo.id
+    ports:
+     - "8090:80"
+    depends_on:
+    - "db"
