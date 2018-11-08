@@ -8,7 +8,7 @@ services:
     depends_on:
     - "api"
     - "identity"
-   restart: unless-stopped
+    restart: unless-stopped
   db:
     image: "microsoft/mssql-server-linux"
     environment:
@@ -16,6 +16,7 @@ services:
       ACCEPT_EULA: "Y"
     ports:
       - "1433:1443"
+    restart: unless-stopped    
   api:
     container_name: "yalldoo.api"
     image: sifeedback/yalldoo.api
@@ -27,6 +28,7 @@ services:
     depends_on:
     - "db"
     - "identity"
+    restart: unless-stopped
   identity:
     container_name: "yalldoo.id"
     image: sifeedback/yalldoo.id
@@ -34,3 +36,4 @@ services:
      - "8090:80"
     depends_on:
     - "db"
+    restart: unless-stopped
