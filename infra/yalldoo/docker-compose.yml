@@ -2,7 +2,7 @@ version: '3.1'
 services:
   web:
     container_name: "yalldoo.web"
-    image: sifeedback/yalldoo.web
+    image: sifeedback/yalldoo.web:dev
     ports:
      - "8080:80"
     depends_on:
@@ -19,7 +19,7 @@ services:
     restart: unless-stopped    
   api:
     container_name: "yalldoo.api"
-    image: sifeedback/yalldoo.api
+    image: sifeedback/yalldoo.api:dev
     build: 
       context: ../Api
       dockerfile: Dockerfile
@@ -31,7 +31,7 @@ services:
     restart: unless-stopped
   identity:
     container_name: "yalldoo.id"
-    image: sifeedback/yalldoo.id
+    image: sifeedback/yalldoo.id:dev
     ports:
      - "8060:80"
     depends_on:
