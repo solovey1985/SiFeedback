@@ -33,7 +33,7 @@ services:
     container_name: "yalldoo.id"
     image: sifeedback/yalldoo.id
     ports:
-     - "8090:80"
+     - "8060:80"
     depends_on:
     - "db"
     restart: unless-stopped
