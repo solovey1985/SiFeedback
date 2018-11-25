@@ -6,7 +6,7 @@ services:
     deploy:
       placement:
         constraints:
-          - node.hostname==sic-mgr
+          - node.role==manager
     volumes: 
       - teamcity-server-datadir:/data/teamcity_server/datadir
       - teamcity-server-logs:/opt/teamcity/logs
@@ -18,7 +18,7 @@ services:
     deploy:
       placement:
         constraints:
-          - node.hostname==sic-mgr
+          - node.role==manager
     environment: 
       SERVER_URL: http://teamcity:8111
     volumes: 
